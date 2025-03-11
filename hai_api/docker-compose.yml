@@ -1,0 +1,13 @@
+services:
+  ocr_service:
+    build:
+      context: ./api
+      dockerfile: ./src/Dockerfile
+    container_name: ocr_api
+    restart: always
+    volumes:
+      - ./api:/app
+    ports:
+      - "5000:5000"
+    environment:
+      - PYTHONUNBUFFERED=1

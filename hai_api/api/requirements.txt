@@ -1,0 +1,25 @@
+# Flask
+# numpy<2
+# tensorflow==1.14.0
+# keras==2.3.1
+# opencv-python==4.5.5.64
+# pillow==6.2.0
+# matplotlib==3.1.1
+# scikit-learn==0.21.3
+# h5py==2.10.0
+# imgaug==0.4.0
+# protobuf<4
+# easyocr==1.4
+
+numpy==1.22.4
+tensorflow==2.13.0
+keras==2.13.1
+opencv-python==4.5.5.64
+pillow==9.2.0
+matplotlib==3.5.3
+scikit-learn==1.0.2
+h5py==2.10.0
+imgaug==0.4.0
+protobuf==3.20.3
+easyocr==1.6.2
+Flask 
